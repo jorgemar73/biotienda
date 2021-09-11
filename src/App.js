@@ -5,6 +5,7 @@ import Layout from './components/layout';
 import Input from './components/input';
 import TaskList from './components/task-list';
 
+<<<<<<< HEAD
 
 class App extends Component {
   constructor(props) {
@@ -55,6 +56,17 @@ class App extends Component {
       </Layout>
     );
   }
+=======
+function App() {
+  return (
+    <div className="container">
+      <h1 className="title">
+        Hello world <span aria-label="emoji" role="img">🔥</span>
+      </h1>
+      <input type="text" className="new-task"/>
+    </div>
+  );
+>>>>>>> 22fbffb95f5137cd1389be01f42b1aba175cb657
 }
 
 export default App;
