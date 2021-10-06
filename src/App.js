@@ -5,7 +5,6 @@ import Layout from './components/layout';
 import Input from './components/input';
 import TaskList from './components/task-list';
 
-
 class App extends Component {
   constructor(props) {
     super(props)
@@ -55,6 +54,7 @@ class App extends Component {
       </Layout>
     );
   }
+
 }
 
 export default App;
